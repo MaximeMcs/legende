@@ -2,4 +2,6 @@
 
 Simple node.js script parsing JSON to build a html file. Create a table with map informations.
 
-node .\index.js
+launch with: node .\index.js
+
+Open index.html

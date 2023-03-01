@@ -39,9 +39,9 @@ const generateTable = (mapStyle) => {
             midDasharray = nextLayer.paint["line-dasharray"] || "0";
             midWidth = nextLayer.paint["line-width"];    
             row = `<tr><td style="text-align: center;"><svg style="height: 40px; width: 40px; background-color: rgba(224, 224, 224, 1);" viewBox="0 0 100 100">
-                  <line x1="0" y1="30" x2="100" y2="30" stroke="${color}" stroke-width="10px" stroke-dasharray="${dasharray}" stroke-opacity="${opacity}" />
-                  <line x1="0" y1="40" x2="100" y2="40" stroke="${midColor}" stroke-width="10px" stroke-dasharray="${midDasharray}" stroke-opacity="${midOpacity}" />
-                  <line x1="0" y1="50" x2="100" y2="50" stroke="${color}" stroke-width="10px" stroke-dasharray="${dasharray}" stroke-opacity="${opacity}" />
+                  <line x1="0" y1="40" x2="100" y2="40" stroke="${color}" stroke-width="10px" stroke-dasharray="${dasharray}" stroke-opacity="${opacity}" />
+                  <line x1="0" y1="50" x2="100" y2="50" stroke="${midColor}" stroke-width="10px" stroke-dasharray="${midDasharray}" stroke-opacity="${midOpacity}" />
+                  <line x1="0" y1="60" x2="100" y2="60" stroke="${color}" stroke-width="10px" stroke-dasharray="${dasharray}" stroke-opacity="${opacity}" />
                   </svg></td><td>${midId}</td><td>${nextLayer.type}</td></tr>`;
             console.log();
             break;
